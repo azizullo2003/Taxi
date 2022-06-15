@@ -1,5 +1,5 @@
 //
-//  SideMenuVC.swift
+//  BaseFloatingPanelViewController.swift
 //  Taxi
 //
 //  Created by Muhammad Azizullo on 15/06/22.
@@ -7,14 +7,14 @@
 
 import UIKit
 
-class SideMenuVC: UIViewController {
+class BaseFloatingPanelViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
 
     /*
     // MARK: - Navigation

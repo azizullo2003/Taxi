@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		318786A0E548563E5C77D019 /* Pods_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8328388327C0A04340FF5997 /* Pods_Taxi.framework */; };
-		38AD7598285A0D2500F19805 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD7597285A0D2400F19805 /* SideMenuVC.swift */; };
+		38AD75A5285A349100F19805 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75A3285A349100F19805 /* SideMenuVC.swift */; };
+		38AD75A6285A349100F19805 /* SideMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AD75A4285A349100F19805 /* SideMenuVC.xib */; };
+		38AD75A9285A362E00F19805 /* BaseFloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */; };
+		38AD75AA285A362E00F19805 /* BaseFloatingPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */; };
+		38AD75AC285A3DB700F19805 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75AB285A3DB700F19805 /* TargetView.swift */; };
+		38AD75AE285A3E6200F19805 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75AD285A3E6200F19805 /* UIViewExtension.swift */; };
 		38E10BE3285A0C3800F3CBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E10BE2285A0C3800F3CBEA /* AppDelegate.swift */; };
 		38E10BE5285A0C3800F3CBEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E10BE4285A0C3800F3CBEA /* SceneDelegate.swift */; };
 		38E10BE7285A0C3800F3CBEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E10BE6285A0C3800F3CBEA /* ViewController.swift */; };
@@ -18,7 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		38AD7597285A0D2400F19805 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		38AD75A3285A349100F19805 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		38AD75A4285A349100F19805 /* SideMenuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuVC.xib; sourceTree = "<group>"; };
+		38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFloatingPanel.swift; sourceTree = "<group>"; };
+		38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseFloatingPanel.xib; sourceTree = "<group>"; };
+		38AD75AB285A3DB700F19805 /* TargetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
+		38AD75AD285A3E6200F19805 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		38E10BDF285A0C3800F3CBEA /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E10BE2285A0C3800F3CBEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E10BE4285A0C3800F3CBEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +78,12 @@
 				38E10BE2285A0C3800F3CBEA /* AppDelegate.swift */,
 				38E10BE4285A0C3800F3CBEA /* SceneDelegate.swift */,
 				38E10BE6285A0C3800F3CBEA /* ViewController.swift */,
-				38AD7597285A0D2400F19805 /* SideMenuVC.swift */,
+				38AD75A3285A349100F19805 /* SideMenuVC.swift */,
+				38AD75A4285A349100F19805 /* SideMenuVC.xib */,
+				38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */,
+				38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */,
+				38AD75AB285A3DB700F19805 /* TargetView.swift */,
+				38AD75AD285A3E6200F19805 /* UIViewExtension.swift */,
 				38E10BE8285A0C3800F3CBEA /* Main.storyboard */,
 				38E10BEB285A0C3800F3CBEA /* Assets.xcassets */,
 				38E10BED285A0C3800F3CBEA /* LaunchScreen.storyboard */,
@@ -155,7 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E10BEF285A0C3800F3CBEA /* LaunchScreen.storyboard in Resources */,
+				38AD75AA285A362E00F19805 /* BaseFloatingPanel.xib in Resources */,
 				38E10BEC285A0C3800F3CBEA /* Assets.xcassets in Resources */,
+				38AD75A6285A349100F19805 /* SideMenuVC.xib in Resources */,
 				38E10BEA285A0C3800F3CBEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,8 +228,11 @@
 			files = (
 				38E10BE7285A0C3800F3CBEA /* ViewController.swift in Sources */,
 				38E10BE3285A0C3800F3CBEA /* AppDelegate.swift in Sources */,
-				38AD7598285A0D2500F19805 /* SideMenuVC.swift in Sources */,
+				38AD75A5285A349100F19805 /* SideMenuVC.swift in Sources */,
+				38AD75A9285A362E00F19805 /* BaseFloatingPanel.swift in Sources */,
+				38AD75AE285A3E6200F19805 /* UIViewExtension.swift in Sources */,
 				38E10BE5285A0C3800F3CBEA /* SceneDelegate.swift in Sources */,
+				38AD75AC285A3DB700F19805 /* TargetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
