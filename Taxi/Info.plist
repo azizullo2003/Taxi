@@ -2,10 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1IjoiYXppenVsbG8yMDAzIiwiYSI6ImNsMTBhNHdpMDF3bWszYmticWxyOXg5MXEifQ.uHPqvMyk0bxd2OroX58GPQ</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>please</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -25,5 +28,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 </dict>
 </plist>

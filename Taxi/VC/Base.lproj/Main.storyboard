@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zkV-Zk-rTh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SWO-VA-ybT">
+            <objects>
+                <viewController id="zkV-Zk-rTh" customClass="ViewController" customModule="Taxi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f73-dk-sy1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9NE-mK-W21"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Xi-sC-jR7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-732" y="73"/>
+        </scene>
+        <!--Pick UpVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="PickupVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="PickUpVC" customModule="Taxi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O'ZIMIZNING TAXI" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tS-Ra-61A">
+                                <rect key="frame" x="45" y="129" width="325" height="41"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzm-Ns-atx">
+                                <rect key="frame" x="20" y="64" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Dra-9a-mqr"/>
+                                    <constraint firstAttribute="height" constant="50" id="PDN-Fn-Vo2"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="X">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cancelBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AEy-gN-SKn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buyurmani qabul qilishni xohlaysizmi?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMr-CB-7Hd">
+                                <rect key="frame" x="20" y="724" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biv-ZY-7ZT">
+                                <rect key="frame" x="20" y="781" width="374" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="d4n-dY-0ag"/>
+                                </constraints>
+                                <color key="tintColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="QABUL QILISH">
+                                    <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="acceptTripBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sPD-7c-N34"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZqY-tT-qgt" customClass="RoundMapView" customModule="Taxi" customModuleProvider="target">
+                                <rect key="frame" x="45" y="264" width="325" height="325"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="325" id="mSP-h2-J3Z"/>
+                                    <constraint firstAttribute="width" constant="325" id="tgX-q1-rCo"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hzm-Ns-atx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5Kk-Zy-4qr"/>
+                            <constraint firstItem="biv-ZY-7ZT" firstAttribute="top" secondItem="IMr-CB-7Hd" secondAttribute="bottom" constant="33" id="7cI-uf-oJw"/>
+                            <constraint firstItem="IMr-CB-7Hd" firstAttribute="top" secondItem="ZqY-tT-qgt" secondAttribute="bottom" constant="135" id="8yI-HP-JjE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZqY-tT-qgt" secondAttribute="trailing" constant="44" id="AHa-QQ-a7g"/>
+                            <constraint firstItem="ZqY-tT-qgt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="DDR-Ag-qRw"/>
+                            <constraint firstItem="hzm-Ns-atx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="INK-wh-EmT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IMr-CB-7Hd" secondAttribute="trailing" constant="20" id="RPL-z4-9AH"/>
+                            <constraint firstItem="IMr-CB-7Hd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SxP-h7-cZR"/>
+                            <constraint firstItem="biv-ZY-7ZT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XTl-nS-inm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="biv-ZY-7ZT" secondAttribute="trailing" constant="20" id="iPT-iK-p6E"/>
+                            <constraint firstItem="5tS-Ra-61A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="ije-1p-J6q"/>
+                            <constraint firstItem="5tS-Ra-61A" firstAttribute="top" secondItem="hzm-Ns-atx" secondAttribute="bottom" constant="15" id="lnO-dQ-zqt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5tS-Ra-61A" secondAttribute="trailing" constant="44" id="ri1-0G-wZX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="biv-ZY-7ZT" secondAttribute="bottom" constant="21" id="whj-hi-bYv"/>
+                            <constraint firstItem="ZqY-tT-qgt" firstAttribute="top" secondItem="5tS-Ra-61A" secondAttribute="bottom" constant="94" id="yU4-7B-hgd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="picjupMapView" destination="ZqY-tT-qgt" id="Utq-HT-dsM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="246"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

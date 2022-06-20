@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		318786A0E548563E5C77D019 /* Pods_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8328388327C0A04340FF5997 /* Pods_Taxi.framework */; };
+		384E77D6285C3B3F0001AA41 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E77D5285C3B3F0001AA41 /* DriverAnnotation.swift */; };
+		384E77D8285CBFD70001AA41 /* PassengerAnnatation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E77D7285CBFD70001AA41 /* PassengerAnnatation.swift */; };
+		3868A4FD285DA19B00CECC2D /* GraphopperResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A4FC285DA19B00CECC2D /* GraphopperResponse.swift */; };
+		3868A501285DA32D00CECC2D /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A500285DA32D00CECC2D /* NetworkDataFetcher.swift */; };
+		3868A503285DA36F00CECC2D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A502285DA36F00CECC2D /* NetworkService.swift */; };
+		3868A505285DB8D100CECC2D /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A504285DB8D100CECC2D /* UIViewControllerExt.swift */; };
+		3868A507285DCBD100CECC2D /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A506285DCBD100CECC2D /* Alertable.swift */; };
+		3868A509285DD9E900CECC2D /* PickUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A508285DD9E900CECC2D /* PickUp.swift */; };
+		3868A50B285DDB2B00CECC2D /* RoundMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A50A285DDB2B00CECC2D /* RoundMapView.swift */; };
+		386C38D6285B1D2200A5CC4A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C38D5285B1D2200A5CC4A /* DataService.swift */; };
+		386C38D8285B582800A5CC4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 386C38D7285B582800A5CC4A /* GoogleService-Info.plist */; };
+		386C38DA285BB7AC00A5CC4A /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C38D9285BB7AC00A5CC4A /* Constans.swift */; };
+		386C38DC285BD73A00A5CC4A /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C38DB285BD73A00A5CC4A /* UpdateService.swift */; };
 		38AD75A5285A349100F19805 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75A3285A349100F19805 /* SideMenuVC.swift */; };
 		38AD75A6285A349100F19805 /* SideMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AD75A4285A349100F19805 /* SideMenuVC.xib */; };
 		38AD75A9285A362E00F19805 /* BaseFloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */; };
 		38AD75AA285A362E00F19805 /* BaseFloatingPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */; };
 		38AD75AC285A3DB700F19805 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75AB285A3DB700F19805 /* TargetView.swift */; };
 		38AD75AE285A3E6200F19805 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75AD285A3E6200F19805 /* UIViewExtension.swift */; };
+		38AD75B4285AED0000F19805 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD75B2285AED0000F19805 /* LoginVC.swift */; };
+		38AD75B5285AED0000F19805 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AD75B3285AED0000F19805 /* LoginVC.xib */; };
 		38E10BE3285A0C3800F3CBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E10BE2285A0C3800F3CBEA /* AppDelegate.swift */; };
 		38E10BE5285A0C3800F3CBEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E10BE4285A0C3800F3CBEA /* SceneDelegate.swift */; };
 		38E10BE7285A0C3800F3CBEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E10BE6285A0C3800F3CBEA /* ViewController.swift */; };
@@ -23,12 +38,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		384E77D5285C3B3F0001AA41 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		384E77D7285CBFD70001AA41 /* PassengerAnnatation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnatation.swift; sourceTree = "<group>"; };
+		3868A4FC285DA19B00CECC2D /* GraphopperResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphopperResponse.swift; sourceTree = "<group>"; };
+		3868A500285DA32D00CECC2D /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		3868A502285DA36F00CECC2D /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3868A504285DB8D100CECC2D /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		3868A506285DCBD100CECC2D /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		3868A508285DD9E900CECC2D /* PickUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUp.swift; sourceTree = "<group>"; };
+		3868A50A285DDB2B00CECC2D /* RoundMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundMapView.swift; sourceTree = "<group>"; };
+		386C38D5285B1D2200A5CC4A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		386C38D7285B582800A5CC4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		386C38D9285BB7AC00A5CC4A /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		386C38DB285BD73A00A5CC4A /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		38AD75A3285A349100F19805 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		38AD75A4285A349100F19805 /* SideMenuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuVC.xib; sourceTree = "<group>"; };
 		38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFloatingPanel.swift; sourceTree = "<group>"; };
 		38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseFloatingPanel.xib; sourceTree = "<group>"; };
 		38AD75AB285A3DB700F19805 /* TargetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
 		38AD75AD285A3E6200F19805 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		38AD75B2285AED0000F19805 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Taxi/VC/LoginVC.swift; sourceTree = SOURCE_ROOT; };
+		38AD75B3285AED0000F19805 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginVC.xib; path = Taxi/VC/LoginVC.xib; sourceTree = SOURCE_ROOT; };
 		38E10BDF285A0C3800F3CBEA /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E10BE2285A0C3800F3CBEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38E10BE4285A0C3800F3CBEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +84,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		386C38D4285B1CE500A5CC4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3868A4FC285DA19B00CECC2D /* GraphopperResponse.swift */,
+				3868A502285DA36F00CECC2D /* NetworkService.swift */,
+				3868A500285DA32D00CECC2D /* NetworkDataFetcher.swift */,
+				386C38D5285B1D2200A5CC4A /* DataService.swift */,
+				386C38DB285BD73A00A5CC4A /* UpdateService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38AD75AF285AEA6700F19805 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				38E10BE6285A0C3800F3CBEA /* ViewController.swift */,
+				38E10BE8285A0C3800F3CBEA /* Main.storyboard */,
+				38AD75A4285A349100F19805 /* SideMenuVC.xib */,
+				38AD75A3285A349100F19805 /* SideMenuVC.swift */,
+				3868A508285DD9E900CECC2D /* PickUp.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		38AD75B0285AEA8600F19805 /* FloatingPanels */ = {
+			isa = PBXGroup;
+			children = (
+				38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */,
+				38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */,
+			);
+			path = FloatingPanels;
+			sourceTree = "<group>";
+		};
+		38AD75B1285AEA9800F19805 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38AD75AD285A3E6200F19805 /* UIViewExtension.swift */,
+				3868A506285DCBD100CECC2D /* Alertable.swift */,
+				3868A504285DB8D100CECC2D /* UIViewControllerExt.swift */,
+				384E77D5285C3B3F0001AA41 /* DriverAnnotation.swift */,
+				38AD75AB285A3DB700F19805 /* TargetView.swift */,
+				38AD75B2285AED0000F19805 /* LoginVC.swift */,
+				38AD75B3285AED0000F19805 /* LoginVC.xib */,
+				384E77D7285CBFD70001AA41 /* PassengerAnnatation.swift */,
+				3868A50A285DDB2B00CECC2D /* RoundMapView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		38E10BD6285A0C3800F3CBEA = {
 			isa = PBXGroup;
 			children = (
@@ -77,17 +156,15 @@
 			children = (
 				38E10BE2285A0C3800F3CBEA /* AppDelegate.swift */,
 				38E10BE4285A0C3800F3CBEA /* SceneDelegate.swift */,
-				38E10BE6285A0C3800F3CBEA /* ViewController.swift */,
-				38AD75A3285A349100F19805 /* SideMenuVC.swift */,
-				38AD75A4285A349100F19805 /* SideMenuVC.xib */,
-				38AD75A7285A362E00F19805 /* BaseFloatingPanel.swift */,
-				38AD75A8285A362E00F19805 /* BaseFloatingPanel.xib */,
-				38AD75AB285A3DB700F19805 /* TargetView.swift */,
-				38AD75AD285A3E6200F19805 /* UIViewExtension.swift */,
-				38E10BE8285A0C3800F3CBEA /* Main.storyboard */,
+				386C38D9285BB7AC00A5CC4A /* Constans.swift */,
+				386C38D4285B1CE500A5CC4A /* Services */,
+				38AD75AF285AEA6700F19805 /* VC */,
+				38AD75B0285AEA8600F19805 /* FloatingPanels */,
+				38AD75B1285AEA9800F19805 /* Extensions */,
 				38E10BEB285A0C3800F3CBEA /* Assets.xcassets */,
 				38E10BED285A0C3800F3CBEA /* LaunchScreen.storyboard */,
 				38E10BF0285A0C3800F3CBEA /* Info.plist */,
+				386C38D7285B582800A5CC4A /* GoogleService-Info.plist */,
 			);
 			path = Taxi;
 			sourceTree = "<group>";
@@ -169,10 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AD75B5285AED0000F19805 /* LoginVC.xib in Resources */,
 				38E10BEF285A0C3800F3CBEA /* LaunchScreen.storyboard in Resources */,
 				38AD75AA285A362E00F19805 /* BaseFloatingPanel.xib in Resources */,
 				38E10BEC285A0C3800F3CBEA /* Assets.xcassets in Resources */,
 				38AD75A6285A349100F19805 /* SideMenuVC.xib in Resources */,
+				386C38D8285B582800A5CC4A /* GoogleService-Info.plist in Resources */,
 				38E10BEA285A0C3800F3CBEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,8 +305,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3868A507285DCBD100CECC2D /* Alertable.swift in Sources */,
+				386C38D6285B1D2200A5CC4A /* DataService.swift in Sources */,
 				38E10BE7285A0C3800F3CBEA /* ViewController.swift in Sources */,
+				3868A509285DD9E900CECC2D /* PickUp.swift in Sources */,
+				386C38DA285BB7AC00A5CC4A /* Constans.swift in Sources */,
 				38E10BE3285A0C3800F3CBEA /* AppDelegate.swift in Sources */,
+				384E77D6285C3B3F0001AA41 /* DriverAnnotation.swift in Sources */,
+				38AD75B4285AED0000F19805 /* LoginVC.swift in Sources */,
+				384E77D8285CBFD70001AA41 /* PassengerAnnatation.swift in Sources */,
+				3868A501285DA32D00CECC2D /* NetworkDataFetcher.swift in Sources */,
+				3868A50B285DDB2B00CECC2D /* RoundMapView.swift in Sources */,
+				386C38DC285BD73A00A5CC4A /* UpdateService.swift in Sources */,
+				3868A4FD285DA19B00CECC2D /* GraphopperResponse.swift in Sources */,
+				3868A505285DB8D100CECC2D /* UIViewControllerExt.swift in Sources */,
+				3868A503285DA36F00CECC2D /* NetworkService.swift in Sources */,
 				38AD75A5285A349100F19805 /* SideMenuVC.swift in Sources */,
 				38AD75A9285A362E00F19805 /* BaseFloatingPanel.swift in Sources */,
 				38AD75AE285A3E6200F19805 /* UIViewExtension.swift in Sources */,
@@ -383,6 +475,9 @@
 				DEVELOPMENT_TEAM = X3WZQ7V882;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Taxi/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = please;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = please;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = please;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -412,6 +507,9 @@
 				DEVELOPMENT_TEAM = X3WZQ7V882;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Taxi/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = please;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = please;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = please;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
